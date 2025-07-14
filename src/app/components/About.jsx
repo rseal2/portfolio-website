@@ -17,8 +17,8 @@ const TAB_DATA = [
       "Vue",
       "Flask",
       "Firebase",
-      "AWS",
       "SQL",
+      "GraphQL",
       "Figma",
     ],
   },
@@ -41,7 +41,7 @@ const About = () => {
   return (
 <section className="text-white">
   <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-    <div className="flex justify-center items-center h-[500px]"> {/* Set a fixed height for the image container */}
+    <div className="flex justify-center items-center h-[500px]"> 
       <Image
         className="ml-[-50px] max-w-[700px] w-full h-auto object-contain"
         src="/images/trees.png"
@@ -54,7 +54,7 @@ const About = () => {
       <h2 className="text-5xl font-bold text-[#235347] mb-4">ABOUT ME</h2>
       <p className="text-xl">
             {" "}
-            I am a junior at the University of Nebraska-Lincoln studying
+            I am a senior at the University of Nebraska-Lincoln studying
             Computer Science with minors in Mathematics and Business Management.
             I am passionate about software development and am always looking for
             opportunities to learn and grow!
