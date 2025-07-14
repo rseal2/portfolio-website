@@ -7,6 +7,21 @@ import Modal from "./ExpModal";
 const experienceData = [
   {
     id: 1,
+    title: "Capital One",
+    role: "Software Engineer Intern",
+    timeline: "June 2025 - August 2025",
+    description:
+      "Capital One is a bank and financial holding company known for its credit cards, consumer banking, and commercial banking services",
+    contributions: [
+      "Pioneered an internal admin panel using Node.js and Python to streamline content management previously handled via direct database edits, reducing content update time by 70% and minimizing data entry errors.",
+      "Incorporated GraphQL and AWS services to ensure secure backend operations and smooth deployment.",
+      "Designed the user interface with Figma, enhancing user experience and accessibility.",
+    ],
+    skills: ["React", "Python", "GraphQL", "AWS", "Figma"],
+    image: "/images/experience_imgs/c1.png",
+  },
+  {
+    id: 2,
     title: "brAIn rot",
     role: "Software Engineer",
     timeline: "August 2024 - Present",
@@ -20,7 +35,7 @@ const experienceData = [
     image: "/images/experience_imgs/brainrot.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Hudl",
     role: "Software Engineer Intern",
     timeline: "May 2024 - August 2024",
@@ -35,7 +50,7 @@ const experienceData = [
     image: "/images/experience_imgs/hudl.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Shyft Solutions",
     role: "Software Engineer Intern",
     timeline: "April 2023 - November 2023",
@@ -51,7 +66,7 @@ const experienceData = [
     image: "/images/experience_imgs/shyftsolutions.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "UNL Economics Department",
     role: "Research Assistant",
     timeline: "April 2024 - November 2024",
@@ -64,7 +79,7 @@ const experienceData = [
     image: "/images/experience_imgs/econ.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Raikes School of Computer Science & Management",
     role: "Innovation Processes Teaching Assistant",
     timeline: "August 2023 - December 2023",
@@ -79,7 +94,7 @@ const experienceData = [
     image: "/images/experience_imgs/raikes.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "Nebraska Realty",
     role: "Marketing Assistant",
     timeline: "June 2021 - August 2022",
@@ -94,7 +109,7 @@ const experienceData = [
     image: "/images/experience_imgs/nebrealty.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "University of Nebraska Medical Center",
     role: "Research Assistant",
     timeline: "June 2021 - August 2021",
