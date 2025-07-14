@@ -17,7 +17,7 @@ const experienceData = [
       "Incorporated GraphQL and AWS services to ensure secure backend operations and smooth deployment.",
       "Designed the user interface with Figma, enhancing user experience and accessibility.",
     ],
-    skills: ["React", "Python", "GraphQL", "AWS", "Figma"],
+    skills: ["React", "Python", "GraphQL", "PostgreSQL", "Jest", "Figma"],
     image: "/images/experience_imgs/c1.png",
   },
   {
